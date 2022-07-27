@@ -105,6 +105,10 @@ div {
 
 }
 
+.PieDePaginaServicios{
+    
+}
+
 .parrafoFooter {
     font-size: 20px;
     margin-bottom: 5px;
@@ -115,6 +119,8 @@ footer i {
     font-size: 30px;
     letter-spacing: 10px;
     padding-top: 5px;
+    
+    
 }
 
 .container {
