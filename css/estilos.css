@@ -177,7 +177,9 @@ section div p {
   .parrafoFooter {
     font-size: 14px; }
   .tituloIndex {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .tablaEnvios {
+    padding-left: 185px; } }
 
 * {
   margin: 0%;
@@ -248,6 +250,112 @@ section div p {
   transform: scale(1.05);
   transition: all 0.7s;
   box-shadow: 2px 2px 5px black; }
+
+@media screen and (max-width: 992px) {
+  .sugerenciasGaleria {
+    grid-template-areas: "hijo1 hijo2" "hijo3 hijo4";
+    justify-content: space-around; }
+  .promoGaleria {
+    grid-template-areas: "hijo5 hijo6" "hijo7 hijo8";
+    justify-content: space-around; }
+  .productosGaleria {
+    grid-template-areas: "hijos1 hijos2" "hijos3 hijos4" "hijos5 hijos6" "hijos7 hijos8" "hijos9 hijos9";
+    padding-left: 30px; }
+  .h1Productos {
+    font-size: 40px; }
+  .tituloQuienessomos {
+    font-size: 40px; }
+  .parrafoQuienesSomos, .textoVegano {
+    font-size: medium; }
+  .parrafoFooter {
+    font-size: 16px; }
+  .tituloIndex {
+    font-size: 40px; } }
+
+@media screen and (max-width: 520px) {
+  .sugerenciasGaleria {
+    grid-template-areas: "hijo1" "hijo2" "hijo3" "hijo4";
+    justify-content: center; }
+  .promoGaleria {
+    grid-template-areas: "hijo5" "hijo6" "hijo7" "hijo8";
+    justify-content: center; }
+  .productosGaleria {
+    grid-template-areas: "hijos1" "hijos2" "hijos3" "hijos4" "hijos5" "hijos6" "hijos7" "hijos8" "hijos9";
+    justify-content: center; }
+  .h1Productos {
+    font-size: 25px;
+    padding-top: 70px; }
+  .tituloQuienessomos {
+    font-size: 35px;
+    padding-top: 120px; }
+  .parrafoQuienesSomos, .textoVegano {
+    font-size: medium; }
+  .parrafoFooter {
+    font-size: 14px; }
+  .tituloIndex {
+    font-size: 30px; } }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+.productosGaleria {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "hijos1 hijos2 hijos3 " "hijos4 hijos5 hijos6" "hijos7 hijos8 hijos9";
+  grid-gap: 50px;
+  justify-content: center;
+  padding: 70px;
+  padding-left: 125px; }
+  .productosGaleria img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; }
+
+.containerp1 {
+  grid-area: hijos1; }
+
+.containerp2 {
+  grid-area: hijos2; }
+
+.containerp3 {
+  grid-area: hijos3; }
+
+.containerp4 {
+  grid-area: hijos4; }
+
+.containerp5 {
+  grid-area: hijos5; }
+
+.containerp6 {
+  grid-area: hijos6; }
+
+.containerp7 {
+  grid-area: hijos7; }
+
+.containerp8 {
+  grid-area: hijos8; }
+
+.containerp9 {
+  grid-area: hijos9; }
+
+section div p {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+div {
+  display: inline-block; }
+
+main section div {
+  margin: 0.5%;
+  vertical-align: middle;
+  padding-left: 5%;
+  margin-top: 5%; }
+
+section div p {
+  padding-top: 13px; }
 
 @media screen and (max-width: 992px) {
   .sugerenciasGaleria {

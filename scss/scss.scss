@@ -263,9 +263,13 @@ section div p {
     .tituloIndex {
         font-size: 30px;
     }
+    .tablaEnvios{
+        padding-left:185px;
+    }
 }
 
 
-@import "_index.scss"
 
+@import "_index.scss";
+@import"_productos.scss";
 
