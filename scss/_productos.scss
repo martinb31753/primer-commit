@@ -5,12 +5,12 @@
 }
 
 
-.productosGaleria {
+.productosGaleria{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
     grid-template-areas: "hijos1 hijos2 hijos3 ""hijos4 hijos5 hijos6""hijos7 hijos8 hijos9";
-    grid-gap: 50px;
+    grid-gap: 80px;
     justify-content: center;
     padding: 70px;
     padding-left: 125px;
@@ -72,6 +72,7 @@ main section div {
     margin-top: 5%;
 }
 
+
 section div p {
     padding-top: 13px;
 }
@@ -114,7 +115,7 @@ section div p {
 
 
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 583px) {
     .sugerenciasGaleria {
         grid-template-areas: "hijo1""hijo2"
             "hijo3""hijo4";

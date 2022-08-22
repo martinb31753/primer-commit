@@ -90,9 +90,9 @@ footer i {
     padding-top: 5px;
 }
 
-.container {
+/*.container {
     min-height: calc(100vh - 70px - 70px)
-}
+}*/
 
 .parrafoQuienesSomos {
     font-family: $font1;
@@ -119,60 +119,6 @@ main section div {
     padding-left: 5%;
     margin-top: 5%;
 }
-
-
-.productosGaleria {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "hijos1 hijos2 hijos3 ""hijos4 hijos5 hijos6""hijos7 hijos8 hijos9";
-    grid-gap: 50px;
-    justify-content: center;
-    padding: 70px;
-    padding-left: 125px;
-    img{
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-    }
-}
-
-.containerp1 {
-    grid-area: hijos1;
-}
-
-.containerp2 {
-    grid-area: hijos2;
-}
-
-.containerp3 {
-    grid-area: hijos3;
-}
-
-.containerp4 {
-    grid-area: hijos4;
-}
-
-.containerp5 {
-    grid-area: hijos5;
-}
-
-.containerp6 {
-    grid-area: hijos6;
-}
-
-.containerp7 {
-    grid-area: hijos7;
-}
-
-.containerp8 {
-    grid-area: hijos8;
-}
-
-.containerp9 {
-    grid-area: hijos9;
-}
-
 
 section div p {
     padding-top: 13px;
@@ -230,7 +176,7 @@ section div p {
 
 
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 583px) {
     .sugerenciasGaleria {
         grid-template-areas: "hijo1""hijo2"
             "hijo3""hijo4";
