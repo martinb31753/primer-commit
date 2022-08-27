@@ -1,5 +1,5 @@
 $colores:(
-"color1":rgba(198, 209, 36, 0.89),
+"color1":rgb(198,209,36),
 "color2":#FCF9C6,
 "color3":olive,
 );
@@ -50,7 +50,7 @@ header {
 h1 {
     @include Titulos(center, 60px,$font1 );
     color:map-get($colores , "color3");
-    padding: 50px;
+    padding-top:50px;
     text-shadow: 2px 2px 5px rgba(90, 119, 56, 0.644);
     text-transform: capitalize;
 }
@@ -90,9 +90,9 @@ footer i {
     padding-top: 5px;
 }
 
-/*.container {
+.container {
     min-height: calc(100vh - 70px - 70px)
-}*/
+}
 
 .parrafoQuienesSomos {
     font-family: $font1;
@@ -164,9 +164,7 @@ section div p {
     .parrafoQuienesSomos {
         font-size: medium;
     }
-    .parrafoFooter {
-        font-size: 16px;
-    }
+    
     .tituloIndex {
         font-size: 40px;
     }
@@ -196,16 +194,24 @@ section div p {
         font-size: 25px;
         padding-top: 70px;
     }
-    .tituloQuienessomos {
+    .tituloQuienesSomos {
         font-size: 35px;
-        padding-top: 120px;
+        padding-top:120px;
+    }
+    .tituloServicios{
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 35px;
+    }
+    .h1Contacto{
+        font-size: 40px;
+        padding-top: 15px;
+
     }
     .parrafoQuienesSomos {
         font-size: medium;
     }
-    .parrafoFooter {
-        font-size: 14px;
-    }
+    
     .tituloIndex {
         font-size: 30px;
     }

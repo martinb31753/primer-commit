@@ -5,7 +5,7 @@
 
 header {
   list-style: none;
-  background-color: rgba(198, 209, 36, 0.89);
+  background-color: #c6d124;
   display: flex;
   top: 0%;
   width: 100%;
@@ -31,7 +31,7 @@ h1 {
   font-size: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: olive;
-  padding: 50px;
+  padding-top: 50px;
   text-shadow: 2px 2px 5px rgba(90, 119, 56, 0.644);
   text-transform: capitalize; }
 
@@ -43,7 +43,7 @@ div {
   display: inline-block; }
 
 .pieDePagina {
-  background-color: rgba(198, 209, 36, 0.89);
+  background-color: #c6d124;
   height: 70px;
   width: 100%;
   text-align: center; }
@@ -58,9 +58,9 @@ footer i {
   letter-spacing: 10px;
   padding-top: 5px; }
 
-/*.container {
-    min-height: calc(100vh - 70px - 70px)
-}*/
+.container {
+  min-height: calc(100vh - 70px - 70px); }
+
 .parrafoQuienesSomos {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
@@ -110,8 +110,6 @@ section div p {
     font-size: 40px; }
   .parrafoQuienesSomos {
     font-size: medium; }
-  .parrafoFooter {
-    font-size: 16px; }
   .tituloIndex {
     font-size: 40px; } }
 
@@ -128,13 +126,18 @@ section div p {
   .h1Productos {
     font-size: 25px;
     padding-top: 70px; }
-  .tituloQuienessomos {
+  .tituloQuienesSomos {
     font-size: 35px;
     padding-top: 120px; }
+  .tituloServicios {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 35px; }
+  .h1Contacto {
+    font-size: 40px;
+    padding-top: 15px; }
   .parrafoQuienesSomos {
     font-size: medium; }
-  .parrafoFooter {
-    font-size: 14px; }
   .tituloIndex {
     font-size: 30px; }
   .tablaEnvios {
@@ -235,12 +238,12 @@ section div p {
     font-size: 40px; }
   .parrafoQuienesSomos {
     font-size: medium; }
-  .parrafoFooter {
-    font-size: 16px; }
   .tituloIndex {
     font-size: 40px; } }
 
 @media screen and (max-width: 583px) {
+  .tituloIndex {
+    margin-top: 80px; }
   .sugerenciasGaleria {
     grid-template-areas: "hijo1" "hijo2" "hijo3" "hijo4";
     justify-content: center; }
@@ -258,8 +261,6 @@ section div p {
     padding-top: 120px; }
   .parrafoQuienesSomos {
     font-size: medium; }
-  .parrafoFooter {
-    font-size: 14px; }
   .tituloIndex {
     font-size: 30px; } }
 
@@ -341,8 +342,6 @@ section div p {
     font-size: 40px; }
   .parrafoQuienesSomos {
     font-size: medium; }
-  .parrafoFooter {
-    font-size: 16px; }
   .tituloIndex {
     font-size: 40px; } }
 
@@ -364,7 +363,5 @@ section div p {
     padding-top: 120px; }
   .parrafoQuienesSomos {
     font-size: medium; }
-  .parrafoFooter {
-    font-size: 14px; }
   .tituloIndex {
     font-size: 30px; } }

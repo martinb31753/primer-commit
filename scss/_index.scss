@@ -134,9 +134,6 @@ padding: 15px;
     .parrafoQuienesSomos {
         font-size: medium;
     }
-    .parrafoFooter {
-        font-size: 16px;
-    }
     .tituloIndex {
         font-size: 40px;
     }
@@ -147,6 +144,9 @@ padding: 15px;
 
 
 @media screen and (max-width: 583px) {
+    .tituloIndex{
+        margin-top: 80px;
+    }
     .sugerenciasGaleria {
         grid-template-areas: "hijo1""hijo2"
             "hijo3""hijo4";
@@ -173,9 +173,7 @@ padding: 15px;
     .parrafoQuienesSomos {
         font-size: medium;
     }
-    .parrafoFooter {
-        font-size: 14px;
-    }
+    
     .tituloIndex {
         font-size: 30px;
     }
