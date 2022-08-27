@@ -83,6 +83,9 @@ main section div {
 section div p {
   padding-top: 13px; }
 
+.tituloServicios {
+  margin-bottom: 30px; }
+
 .tablaEnvios {
   display: flex;
   width: 30%;
@@ -96,12 +99,10 @@ section div p {
 
 @media screen and (max-width: 992px) {
   .sugerenciasGaleria {
-    grid-template-areas: "hijo1 hijo2"
- "hijo3 hijo4";
+    grid-template-areas: "hijo1 hijo2" "hijo3 hijo4";
     justify-content: space-around; }
   .promoGaleria {
-    grid-template-areas: "hijo5 hijo6"
- "hijo7 hijo8";
+    grid-template-areas: "hijo5 hijo6" "hijo7 hijo8";
     justify-content: space-around; }
   .productosGaleria {
     grid-template-areas: "hijos1 hijos2" "hijos3 hijos4" "hijos5 hijos6" "hijos7 hijos8" "hijos9 hijos9";
@@ -133,11 +134,13 @@ section div p {
     padding-top: 120px; }
   .tituloServicios {
     margin-top: 15px;
+    margin-bottom: 40px;
     margin-left: 10px;
     font-size: 35px; }
   .h1Contacto {
     font-size: 40px;
-    padding-top: 15px; }
+    padding-top: 15px;
+    margin-bottom: 30px; }
   .parrafoQuienesSomos {
     font-size: medium; }
   .tituloIndex {
@@ -151,7 +154,7 @@ section div p {
   box-sizing: border-box; }
 
 .textoVegano {
-  background-image: linear-gradient(rgba(207, 218, 207, 0.719), rgba(207, 238, 96, 0.322)), url(../multimedia/backgroundveg.jpg);
+  background-image: linear-gradient(rgba(207, 218, 207, 0.281), rgba(207, 238, 96, 0.267)), url(../multimedia/backgroundveg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -226,12 +229,10 @@ section div p {
 
 @media screen and (max-width: 992px) {
   .sugerenciasGaleria {
-    grid-template-areas: "hijo1 hijo2"
- "hijo3 hijo4";
+    grid-template-areas: "hijo1 hijo2" "hijo3 hijo4";
     justify-content: space-around; }
   .promoGaleria {
-    grid-template-areas: "hijo5 hijo6"
- "hijo7 hijo8";
+    grid-template-areas: "hijo5 hijo6" "hijo7 hijo8";
     justify-content: space-around; }
   .productosGaleria {
     grid-template-areas: "hijos1 hijos2" "hijos3 hijos4" "hijos5 hijos6" "hijos7 hijos8" "hijos9 hijos9";
@@ -332,12 +333,10 @@ section div p {
 
 @media screen and (max-width: 992px) {
   .sugerenciasGaleria {
-    grid-template-areas: "hijo1 hijo2"
- "hijo3 hijo4";
+    grid-template-areas: "hijo1 hijo2" "hijo3 hijo4";
     justify-content: space-around; }
   .promoGaleria {
-    grid-template-areas: "hijo5 hijo6"
- "hijo7 hijo8";
+    grid-template-areas: "hijo5 hijo6" "hijo7 hijo8";
     justify-content: space-around; }
   .productosGaleria {
     grid-template-areas: "hijos1 hijos2" "hijos3 hijos4" "hijos5 hijos6" "hijos7 hijos8" "hijos9 hijos9";
